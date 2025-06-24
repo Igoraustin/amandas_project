@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Stethoscope } from 'lucide-react';
+import { Menu, X, Activity } from 'lucide-react';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,11 +37,11 @@ const Header = () => {
             <div className={`p-2 rounded-full transition-all duration-300 ${
               scrolled ? 'bg-sage/15' : 'bg-sage/10'
             } group-hover:bg-sage/25 group-hover:scale-110`}>
-              <Stethoscope className="h-6 w-6 text-sage transition-transform duration-300 group-hover:rotate-12" />
+              <Activity className="h-6 w-6 text-sage transition-transform duration-300 group-hover:rotate-12" />
             </div>
             <div className="transform group-hover:scale-105 transition-transform duration-300">
               <h1 className="font-playfair font-semibold text-xl gradient-text">
-                Dra. Amanda
+                Dra. Amanda Fernandes
               </h1>
               <p className="text-xs text-brown-light -mt-1 high-contrast">Nutrologia Especializada</p>
             </div>
