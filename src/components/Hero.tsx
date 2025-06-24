@@ -46,15 +46,8 @@ const Hero = () => {
                   className="btn-elegant bg-green-500 text-white px-8 py-4 rounded-full text-lg font-medium tracking-button uppercase hover:bg-green-600 hover:shadow-2xl transition-all duration-300 transform hover:scale-105 text-center flex items-center justify-center gap-2 relative overflow-hidden group"
                 >
                   <MessageCircle className="w-5 h-5 relative z-10" />
-                  <span className="relative z-10">WhatsApp Direto</span>
+                  <span className="relative z-10">WhatsApp</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
-                </a>
-                <a
-                  href="#especialidades"
-                  className="btn-elegant border-2 border-sage text-sage px-8 py-4 rounded-full text-lg font-medium tracking-button uppercase hover:bg-sage hover:text-white transition-all duration-300 text-center relative overflow-hidden group"
-                >
-                  <span className="relative z-10">Conhecer Mais</span>
-                  <div className="absolute inset-0 bg-sage transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
                 </a>
               </div>
             </AnimatedSection>
