@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         cream: '#F6EDE4',
+        'beige-light': '#F8F4EF',
         sage: '#A3B18A',         // Valor correto do verde sálvia
         'sage-dark': '#7A8A6A',  // Valor ajustado
         'sage-light': '#C3D1AA', // Valor ajustado

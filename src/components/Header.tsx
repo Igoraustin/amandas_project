@@ -37,9 +37,9 @@ const Header = () => {
             </div>
             <div>
               <h1 className="font-playfair font-semibold text-xl text-sage">
-                Dra. Amanda
+                Dra. Amanda Fernandes
               </h1>
-              <p className="text-xs text-brown-light -mt-1">Medicina Especializada</p>
+              <p className="text-xs text-brown-light -mt-1">Nutrologia Especializada</p>
             </div>
           </Link>
 
