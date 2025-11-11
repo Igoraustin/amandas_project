@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Instagram, Mail, Phone, MapPin, Heart } from 'lucide-react';
+=======
+import { Instagram, MapPin, Heart } from 'lucide-react';
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
 
 const Footer = () => {
   return (
@@ -11,6 +15,7 @@ const Footer = () => {
             <h3 className="font-playfair text-2xl font-semibold">Contato</h3>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
+<<<<<<< HEAD
                 <Phone className="h-5 w-5 text-sage" />
                 <span className="text-gray-300">(11) 99999-9999</span>
               </div>
@@ -19,6 +24,8 @@ const Footer = () => {
                 <span className="text-gray-300">contato@dramanda.com.br</span>
               </div>
               <div className="flex items-center space-x-3">
+=======
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
                 <MapPin className="h-5 w-5 text-sage" />
                 <span className="text-gray-300">São Paulo, SP</span>
               </div>

@@ -42,7 +42,11 @@ const BlogPreview = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-playfair text-4xl lg:text-5xl font-bold text-brown-dark mb-6">
+<<<<<<< HEAD
             Blog de Nutrologia
+=======
+            Blog de <span className="gradient-text">Nutrologia</span>
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
           </h2>
           <p className="text-xl text-brown-light max-w-2xl mx-auto">
             Conteúdo científico e acessível sobre nutrição médica e saúde

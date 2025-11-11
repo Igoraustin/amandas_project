@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import { MessageCircle, Calendar, Phone, Mail } from 'lucide-react';
+=======
+import { MessageCircle, Calendar } from 'lucide-react';
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
 
 const Contact = () => {
   return (
@@ -8,14 +12,22 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-playfair text-4xl lg:text-5xl font-bold text-brown-dark mb-6">
+<<<<<<< HEAD
             Agende sua Consulta
+=======
+            Agende sua <span className="gradient-text">Consulta</span>
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
           </h2>
           <p className="text-xl text-brown-light max-w-2xl mx-auto">
             Transforme sua saúde através da nutrição médica personalizada. Entre em contato para iniciar sua jornada de bem-estar.
           </p>
         </div>
 
+<<<<<<< HEAD
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+=======
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
           {/* WhatsApp */}
           <div className="bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-slide-up">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -56,6 +68,7 @@ const Contact = () => {
               Marcar
             </Link>
           </div>
+<<<<<<< HEAD
 
           {/* Phone */}
           <div className="bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 animate-slide-up" style={{ animationDelay: '0.2s' }}>
@@ -94,6 +107,8 @@ const Contact = () => {
               Enviar
             </a>
           </div>
+=======
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
         </div>
       </div>
     </section>

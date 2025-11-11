@@ -25,7 +25,11 @@ const Approach = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="font-playfair text-4xl lg:text-5xl font-bold text-brown-dark mb-6">
+<<<<<<< HEAD
             Minha Abordagem
+=======
+            Minha <span className="gradient-text">Abordagem</span>
+>>>>>>> 06019b0b87080afde7fb6d0529967c7a19a8886c
           </h2>
           <p className="text-xl text-brown-light max-w-2xl mx-auto">
             Um método científico e personalizado para resultados duradouros
